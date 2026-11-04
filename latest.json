@@ -1,22 +1,22 @@
 {
+  "tag_name": "v0.56.0",
   "draft": false,
   "prerelease": false,
-  "tag_name": "v0.55.1",
-  "body": "سینما ۰٫۵۵٫۱\r\n\r\nدر تلویزیون، اطلاعات اثر و دکمه‌های پخش کنار فهرست قسمت‌ها قرار گرفته‌اند و جدا اسکرول می‌شوند. پوستر کامل و متن‌های چندخطی حفظ شده‌اند.\r\n\r\nدر موبایل، دکمهٔ پخش یا ادامهٔ تماشا هنگام اسکرول جزئیات بالای نوار پایین در دسترس می‌ماند.\r\n\r\nبه‌روزرسانی از داخل کتابخانهٔ برنامه اضافه شده است: بررسی نسخه، دریافت قابل لغو، تأیید صحت و امضای ثابت، و تحویل به نصب‌کنندهٔ اندروید با تأیید خودت.\r\n\r\nظاهر خانه، منابع، امکانات و موتور پلیر قبلی حفظ شده‌اند. هر دو فایل با همان گواهی ثابت Release امضا شده‌اند.\r\n\r\nاطلاعات نسخه از فایل عمومی latest.json خوانده می‌شود تا بررسی آپدیت به سهمیهٔ API گیت‌هاب وابسته نباشد.",
+  "body": "بانک‌مووی و کشف فیلم در سینما برای موبایل و Android TV\r\n\r\n- آرشیو عمومی ۱ بانک‌مووی در جست‌وجو و فهرست یکپارچه؛ عنوان‌های مشترک، لینک جایگزین همان عنوان را دارند.\r\n- تازه‌سازی لینک موقت پخش با حفظ ادامهٔ تماشا، دانلود و پوستر ذخیره‌شده.\r\n- نمایش شاخص با پوستر کامل، انتخاب «امشب چی ببینیم؟» و مجموعه‌های موضوعی بر اساس ژانر واقعی.\r\n- برنامهٔ هفتگی اعلام‌شدهٔ منبع؛ روز اعلام‌شده به معنی آماده بودن قسمت تازه نیست.\r\n- نمایش روشن‌تر کیفیت، زبان و نوع زیرنویس در انتخاب نسخه.\r\n\r\nپلیر و امکانات قبلی حفظ شده‌اند. پخش Inception و قسمت اول Tulsa King با تصویر، خروجی صدای AAC، زیرنویس فارسی و جابه‌جایی زمان روی شبیه‌ساز موبایل و تلویزیون آزمایش شد. ۲۴۸ آزمون منطقی برای هر نسخه گذشت.\r\n\r\nهر دو APK از نوع Release و با همان امضای ثابت قبلی هستند. فایل mobile برای گوشی و فایل tv برای Android TV است.",
   "assets": [
     {
-      "name": "cinema-mobile-v0.55.1-release.apk",
+      "name": "cinema-mobile-v0.56.0-release.apk",
       "state": "uploaded",
-      "browser_download_url": "https://github.com/kamyabebrahimi/cinema-updates/releases/download/v0.55.1/cinema-mobile-v0.55.1-release.apk",
-      "digest": "sha256:d917bdf6c021ca1dc44f882749052bcbd8748515d0a501ece05ffa3738b65244",
-      "size": 6144074
+      "browser_download_url": "https://github.com/kamyabebrahimi/cinema-updates/releases/download/v0.56.0/cinema-mobile-v0.56.0-release.apk",
+      "digest": "sha256:5a688962eddf996d549bb3428746ffbbe0f7d522ae2efb1f92bc824bec23cec3",
+      "size": 6167442
     },
     {
-      "name": "cinema-tv-v0.55.1-release.apk",
+      "name": "cinema-tv-v0.56.0-release.apk",
       "state": "uploaded",
-      "browser_download_url": "https://github.com/kamyabebrahimi/cinema-updates/releases/download/v0.55.1/cinema-tv-v0.55.1-release.apk",
-      "digest": "sha256:fcc861eb95acfe1ac51aa6c097ce8f716f39eef3cff6c3ae4d670df6fcf7c5f7",
-      "size": 6145185
+      "browser_download_url": "https://github.com/kamyabebrahimi/cinema-updates/releases/download/v0.56.0/cinema-tv-v0.56.0-release.apk",
+      "digest": "sha256:b0a30c395f1efd74cb05af9cba10e7989156886af66f93f8d1e00fc7aeb8a895",
+      "size": 6168602
     }
   ]
 }
