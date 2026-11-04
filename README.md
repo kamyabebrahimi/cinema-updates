@@ -1,2 +1,15 @@
-# cinema-updates
-Official signed Cinema APK releases for mobile and Android TV. Distribution files and release information only.
+# سینما: فایل‌های نصب رسمی
+
+این مخزن فقط فایل‌های نصب امضاشدهٔ سینما و اطلاعات انتشار را نگه می‌دارد. کد برنامه در مخزن جداگانهٔ خصوصی نگه‌داری می‌شود؛ اطلاعات حساب‌ها، فهرست‌های شخصی و کلید امضا در این مخزن قرار ندارند.
+
+[دریافت آخرین نسخه](https://github.com/kamyabebrahimi/cinema-updates/releases/latest)
+
+- موبایل: `cinema-mobile-v<VERSION>-release.apk`
+- اندروید تی‌وی: `cinema-tv-v<VERSION>-release.apk`
+- کنترل صحت فایل‌ها: `SHA256SUMS.txt`
+
+از نسخهٔ ۰٫۵۵٫۰، گزینهٔ نسخهٔ جدید در کتابخانهٔ برنامه می‌تواند انتشارهای این مخزن را بدون ورود به گیت‌هاب بررسی و دریافت کند. دانلود با انتخاب کاربر آغاز می‌شود؛ برنامه صحت فایل و هویت نسخه را بررسی می‌کند و نصب نهایی در پنجرهٔ اندروید انجام می‌شود.
+
+اثر انگشت SHA-256 گواهی ثابت Release:
+
+`3ed958fa46b57e5184041e4a18b34d938b403de66a1cd4e6779796a3911954fe`
