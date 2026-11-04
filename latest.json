@@ -1,0 +1,22 @@
+{
+  "draft": false,
+  "prerelease": false,
+  "tag_name": "v0.55.0",
+  "body": "سینما ۰٫۵۵٫۰\r\n\r\nدر تلویزیون، اطلاعات اثر و دکمه‌های پخش کنار فهرست قسمت‌ها قرار گرفته‌اند و جدا اسکرول می‌شوند. پوستر کامل و متن‌های چندخطی حفظ شده‌اند.\r\n\r\nدر موبایل، دکمهٔ پخش یا ادامهٔ تماشا هنگام اسکرول جزئیات بالای نوار پایین در دسترس می‌ماند.\r\n\r\nبه‌روزرسانی از داخل کتابخانهٔ برنامه اضافه شده است: بررسی نسخه، دریافت قابل لغو، تأیید صحت و امضای ثابت، و تحویل به نصب‌کنندهٔ اندروید با تأیید خودت.\r\n\r\nظاهر خانه، منابع، امکانات و موتور پلیر قبلی حفظ شده‌اند. هر دو فایل با همان گواهی ثابت Release امضا شده‌اند.",
+  "assets": [
+    {
+      "name": "cinema-mobile-v0.55.0-release.apk",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/kamyabebrahimi/cinema-updates/releases/download/v0.55.0/cinema-mobile-v0.55.0-release.apk",
+      "digest": "sha256:0d7a92a21ae86abfb6e8553d3ebf24409c9ba43843665d38c06729d2bd33046b",
+      "size": 6143993
+    },
+    {
+      "name": "cinema-tv-v0.55.0-release.apk",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/kamyabebrahimi/cinema-updates/releases/download/v0.55.0/cinema-tv-v0.55.0-release.apk",
+      "digest": "sha256:1d95132ff7d2c98f41d146ab1ae39e330466310e64c76fed8e53aaca1f8fd9af",
+      "size": 6145151
+    }
+  ]
+}
