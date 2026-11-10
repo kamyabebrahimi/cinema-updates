@@ -1,22 +1,22 @@
 {
-  "tag_name": "v0.56.0",
+  "tag_name": "v0.57.0",
   "draft": false,
   "prerelease": false,
-  "body": "بانک‌مووی و کشف فیلم در سینما برای موبایل و Android TV\r\n\r\n- آرشیو عمومی ۱ بانک‌مووی در جست‌وجو و فهرست یکپارچه؛ عنوان‌های مشترک، لینک جایگزین همان عنوان را دارند.\r\n- تازه‌سازی لینک موقت پخش با حفظ ادامهٔ تماشا، دانلود و پوستر ذخیره‌شده.\r\n- نمایش شاخص با پوستر کامل، انتخاب «امشب چی ببینیم؟» و مجموعه‌های موضوعی بر اساس ژانر واقعی.\r\n- برنامهٔ هفتگی اعلام‌شدهٔ منبع؛ روز اعلام‌شده به معنی آماده بودن قسمت تازه نیست.\r\n- نمایش روشن‌تر کیفیت، زبان و نوع زیرنویس در انتخاب نسخه.\r\n\r\nپلیر و امکانات قبلی حفظ شده‌اند. پخش Inception و قسمت اول Tulsa King با تصویر، خروجی صدای AAC، زیرنویس فارسی و جابه‌جایی زمان روی شبیه‌ساز موبایل و تلویزیون آزمایش شد. ۲۴۸ آزمون منطقی برای هر نسخه گذشت.\r\n\r\nهر دو APK از نوع Release و با همان امضای ثابت قبلی هستند. فایل mobile برای گوشی و فایل tv برای Android TV است.",
+  "body": "دریافت خودکار لینک تازهٔ جم‌فود و کانال‌های عمومیِ نمکده از منابع مورد استفادهٔ سالین، هنگام شروع پخش و بدون حساب سالین.\r\n\r\n- ۶۱ مسیر عمومیِ بررسی‌شده برای ۶۰ شبکه؛ ۱۸ شبکهٔ جدید و لینک جایگزین برای ۴۲ شبکهٔ موجود.\r\n- ادغام در تلویزیون زنده و جست‌وجوی فعلی، همراه دسته‌بندی و لوگو؛ حفظ ظاهر و پلیر.\r\n- اصلاح شروع پخش زنده و بازیابی محدود عقب‌افتادن از جریان؛ حفظ توقف کاربر و لغو درخواست هنگام تعویض شبکه.\r\n- ۲۶۵ آزمون واحد در هر نسخه و بررسی ساخت موفق؛ پخش جم‌فود با صدا و تصویر، ۳۰ ثانیه ادامهٔ پخش و ۱۰ ثانیه پس از بازسازی پلیر با لینک تازه در هر دو نسخه تأیید شد. آزمون روی شبیه‌ساز Android 11 بود، نه تلویزیون فیزیکی.\r\n\r\nاین مجموعه همهٔ کانال‌های اپ رسمی سالین نیست. برای ۶۱ مسیر، فهرست پخش و نمونهٔ رسانه بررسی شده؛ آزمون کامل داخل پلیر برای جم‌فود انجام شده است. Me TV به‌دلیل پاسخ‌ندادن منبع اضافه نشده است.\r\n\r\nهر دو APK نسخهٔ Release با همان امضای ثابت قبلی هستند؛ نسخهٔ موبایل و تلویزیون فایل جدا دارند. اطلاعات حساب یا لینک نشست آزمایشی در فایل‌ها قرار نگرفته است.",
   "assets": [
     {
-      "name": "cinema-mobile-v0.56.0-release.apk",
+      "name": "cinema-mobile-v0.57.0-release.apk",
       "state": "uploaded",
-      "browser_download_url": "https://github.com/kamyabebrahimi/cinema-updates/releases/download/v0.56.0/cinema-mobile-v0.56.0-release.apk",
-      "digest": "sha256:5a688962eddf996d549bb3428746ffbbe0f7d522ae2efb1f92bc824bec23cec3",
-      "size": 6167442
+      "browser_download_url": "https://github.com/kamyabebrahimi/cinema-updates/releases/download/v0.57.0/cinema-mobile-v0.57.0-release.apk",
+      "digest": "sha256:8c38c308aaa616ba61ffa128869f3dc198665622676c13794c6b355a15424362",
+      "size": 6175908
     },
     {
-      "name": "cinema-tv-v0.56.0-release.apk",
+      "name": "cinema-tv-v0.57.0-release.apk",
       "state": "uploaded",
-      "browser_download_url": "https://github.com/kamyabebrahimi/cinema-updates/releases/download/v0.56.0/cinema-tv-v0.56.0-release.apk",
-      "digest": "sha256:b0a30c395f1efd74cb05af9cba10e7989156886af66f93f8d1e00fc7aeb8a895",
-      "size": 6168602
+      "browser_download_url": "https://github.com/kamyabebrahimi/cinema-updates/releases/download/v0.57.0/cinema-tv-v0.57.0-release.apk",
+      "digest": "sha256:007811389f6ffee99132eb561c6fa7c64ff07dcb5d54e5181f10b6918c1b7ca3",
+      "size": 6176823
     }
   ]
 }
