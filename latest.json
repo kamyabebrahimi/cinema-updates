@@ -1,22 +1,23 @@
 {
-  "tag_name": "v0.62.0",
+  "tag_name": "v0.63.0",
   "draft": false,
   "prerelease": false,
-  "body": "- عبور سریع‌تر از لینک خراب تلویزیون زنده و تلاش خودکار با لینک جایگزین همان شبکه.\r\n- بررسی اولیهٔ حداکثر چهار لینک، دو لینک هم‌زمان، با سقف انتظار هفت ثانیه.\r\n- نمایش آخرین نتیجهٔ پخش لینک‌ها، نیاز به ورود، محدودیت موقت و زمان بررسی.\r\n- مدیریت حساب‌های فیلیمو، روبیکا و فعال‌سازی سالین در یک صفحه.\r\n- تلاش دوباره فقط برای منبع ناموفق، با حفظ لینک‌های منابع سالم.\r\n- نمایش زمان دریافت فهرست هر منبع به تاریخ شمسی.\r\n- قسمت‌های جدید سریال‌های من، با بررسی دستی و حفظ وضعیت روی دستگاه.\r\n- گزارش مشکل با عنوان، قسمت و اطلاعات پخش؛ بدون اطلاعات حساب و نشانی خصوصی.\r\n\r\nظاهر، پلیر و امکانات قبلی حفظ شده‌اند. هر دو فایل Release با امضای ثابت نسخه‌های قبلی ساخته شده‌اند. زمان شروع پخش واقعی به شبکه و سرور هر کانال بستگی دارد.",
+  "body": "آخرین لینک موفق هر کانال زنده، فیلم و قسمت سریال در حافظه می‌ماند و دفعهٔ بعد اول امتحان می‌شود. لینک ناموفق اولویت خود را از دست می‌دهد و لینک موفق بعدی جایگزین می‌شود. انتخاب دستی، کیفیت، ظاهر و پلیر حفظ شده‌اند.",
   "assets": [
     {
-      "name": "cinema-mobile-v0.62.0-release.apk",
+      "name": "cinema-mobile-v0.63.0-release.apk",
       "state": "uploaded",
-      "browser_download_url": "https://github.com/kamyabebrahimi/cinema-updates/releases/download/v0.62.0/cinema-mobile-v0.62.0-release.apk",
-      "digest": "sha256:4cffc6cc2a5630d443c70589ee09d9f81a2453c1bf836790c67c666d3a6d39e0",
-      "size": 6469900
+      "browser_download_url": "https://github.com/kamyabebrahimi/cinema-updates/releases/download/v0.63.0/cinema-mobile-v0.63.0-release.apk",
+      "digest": "sha256:ce86e7b6d6ecdf1cc405615d3ba240ac3ca7a7b92a698b22077032e325a9a159",
+      "size": 6471591
     },
     {
-      "name": "cinema-tv-v0.62.0-release.apk",
+      "name": "cinema-tv-v0.63.0-release.apk",
       "state": "uploaded",
-      "browser_download_url": "https://github.com/kamyabebrahimi/cinema-updates/releases/download/v0.62.0/cinema-tv-v0.62.0-release.apk",
-      "digest": "sha256:546458319895ae2085162c51695953bbae4af22b51a0edcb7fcadbe3e272e3df",
-      "size": 6470989
+      "browser_download_url": "https://github.com/kamyabebrahimi/cinema-updates/releases/download/v0.63.0/cinema-tv-v0.63.0-release.apk",
+      "digest": "sha256:dad67079e333718587e29f475c0064ee9a4b1a95ff955f830e43ca85751dd2ba",
+      "size": 6472681
     }
   ]
 }
+
