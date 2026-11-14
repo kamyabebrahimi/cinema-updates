@@ -1,22 +1,22 @@
 {
-  "tag_name": "v0.60.0",
+  "tag_name": "v0.62.0",
   "draft": false,
   "prerelease": false,
-  "body": "- نمایش اطلاعات ذخیره‌شدهٔ خانه پیش از دریافت شبکه و به‌روزرسانی مستقل منابع؛ خطای یک منبع، بقیهٔ صفحه را معطل نمی‌کند.\r\n- اصلاح دریافت صفحه‌های آرشیو سریال‌های ایرانی فیلیمو و حضور عنوان‌ها در خانه و جست‌وجوی یکپارچه. در آزمون زنده، ۳۲۶ عنوان از ۹ صفحه دریافت شد.\r\n- کاهش مقایسه‌های تکراری بین منابع؛ ۱۲ کارت نخست هر ردیف همراه با «مشاهده همه» برای ادامهٔ همان دسته. ظاهر، امکانات و پلیر حفظ شده‌اند.\r\n- در یک آزمون مقایسه‌ای با اطلاعات ذخیره‌شده و آرشیو کامل، زمان اولین محتوای قابل مشاهدهٔ خانه روی شبیه‌ساز تلویزیون از ۴۴٫۲ به ۴٫۳ ثانیه و موبایل از ۴۵٫۴ به ۴٫۷ ثانیه رسید. این زمان، تکمیل همهٔ تصاویر یا بارگذاری اولیهٔ بدون حافظهٔ ذخیره‌شده نیست و به دستگاه و شبکه بستگی دارد.\r\n\r\nهر دو APK نسخهٔ Release با امضای ثابت قبلی و شمارهٔ ساخت ۷۲ هستند؛ روی نسخهٔ قبلی نصب کنید. فایل mobile برای گوشی و فایل tv برای Android TV است. فایل SHA256SUMS برای بررسی سلامت دانلود ضمیمه شده است.",
+  "body": "- عبور سریع‌تر از لینک خراب تلویزیون زنده و تلاش خودکار با لینک جایگزین همان شبکه.\r\n- بررسی اولیهٔ حداکثر چهار لینک، دو لینک هم‌زمان، با سقف انتظار هفت ثانیه.\r\n- نمایش آخرین نتیجهٔ پخش لینک‌ها، نیاز به ورود، محدودیت موقت و زمان بررسی.\r\n- مدیریت حساب‌های فیلیمو، روبیکا و فعال‌سازی سالین در یک صفحه.\r\n- تلاش دوباره فقط برای منبع ناموفق، با حفظ لینک‌های منابع سالم.\r\n- نمایش زمان دریافت فهرست هر منبع به تاریخ شمسی.\r\n- قسمت‌های جدید سریال‌های من، با بررسی دستی و حفظ وضعیت روی دستگاه.\r\n- گزارش مشکل با عنوان، قسمت و اطلاعات پخش؛ بدون اطلاعات حساب و نشانی خصوصی.\r\n\r\nظاهر، پلیر و امکانات قبلی حفظ شده‌اند. هر دو فایل Release با امضای ثابت نسخه‌های قبلی ساخته شده‌اند. زمان شروع پخش واقعی به شبکه و سرور هر کانال بستگی دارد.",
   "assets": [
     {
-      "name": "cinema-mobile-v0.60.0-release.apk",
+      "name": "cinema-mobile-v0.62.0-release.apk",
       "state": "uploaded",
-      "browser_download_url": "https://github.com/kamyabebrahimi/cinema-updates/releases/download/v0.60.0/cinema-mobile-v0.60.0-release.apk",
-      "digest": "sha256:deefe3e5434a7e2a57f98f526d88f1e337ac2d594f5c12e585eac1637accbef6",
-      "size": 6459024
+      "browser_download_url": "https://github.com/kamyabebrahimi/cinema-updates/releases/download/v0.62.0/cinema-mobile-v0.62.0-release.apk",
+      "digest": "sha256:4cffc6cc2a5630d443c70589ee09d9f81a2453c1bf836790c67c666d3a6d39e0",
+      "size": 6469900
     },
     {
-      "name": "cinema-tv-v0.60.0-release.apk",
+      "name": "cinema-tv-v0.62.0-release.apk",
       "state": "uploaded",
-      "browser_download_url": "https://github.com/kamyabebrahimi/cinema-updates/releases/download/v0.60.0/cinema-tv-v0.60.0-release.apk",
-      "digest": "sha256:f49f2b8eb5a96cd50d9bde9bda0a7d6ae3629b2c45635107504fa4aef1de92a4",
-      "size": 6460800
+      "browser_download_url": "https://github.com/kamyabebrahimi/cinema-updates/releases/download/v0.62.0/cinema-tv-v0.62.0-release.apk",
+      "digest": "sha256:546458319895ae2085162c51695953bbae4af22b51a0edcb7fcadbe3e272e3df",
+      "size": 6470989
     }
   ]
 }
