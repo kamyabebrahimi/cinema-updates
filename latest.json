@@ -1,23 +1,22 @@
 {
-  "tag_name": "v0.63.0",
+  "tag_name": "v0.64.0",
   "draft": false,
   "prerelease": false,
-  "body": "آخرین لینک موفق هر کانال زنده، فیلم و قسمت سریال در حافظه می‌ماند و دفعهٔ بعد اول امتحان می‌شود. لینک ناموفق اولویت خود را از دست می‌دهد و لینک موفق بعدی جایگزین می‌شود. انتخاب دستی، کیفیت، ظاهر و پلیر حفظ شده‌اند.",
+  "body": "خانه و پوسترها مرحله‌ای بارگذاری می‌شوند و هنگام پخش کارهای اضافی خانه مکث می‌کنند. تعویض سریع کانال، حفظ کارت و قسمت انتخاب‌شده، تشخیص خطا و یکپارچگی منابع بهتر شده‌اند. ظاهر، پلیر و امضای ثابت حفظ شده‌اند.",
   "assets": [
     {
-      "name": "cinema-mobile-v0.63.0-release.apk",
+      "name": "cinema-mobile-v0.64.0-release.apk",
       "state": "uploaded",
-      "browser_download_url": "https://github.com/kamyabebrahimi/cinema-updates/releases/download/v0.63.0/cinema-mobile-v0.63.0-release.apk",
-      "digest": "sha256:ce86e7b6d6ecdf1cc405615d3ba240ac3ca7a7b92a698b22077032e325a9a159",
-      "size": 6471591
+      "browser_download_url": "https://github.com/kamyabebrahimi/cinema-updates/releases/download/v0.64.0/cinema-mobile-v0.64.0-release.apk",
+      "digest": "sha256:cb7fe95e3930b3653391b2714b157a8982cc1b491959b91283a1fcfd1db59e39",
+      "size": 6476322
     },
     {
-      "name": "cinema-tv-v0.63.0-release.apk",
+      "name": "cinema-tv-v0.64.0-release.apk",
       "state": "uploaded",
-      "browser_download_url": "https://github.com/kamyabebrahimi/cinema-updates/releases/download/v0.63.0/cinema-tv-v0.63.0-release.apk",
-      "digest": "sha256:dad67079e333718587e29f475c0064ee9a4b1a95ff955f830e43ca85751dd2ba",
-      "size": 6472681
+      "browser_download_url": "https://github.com/kamyabebrahimi/cinema-updates/releases/download/v0.64.0/cinema-tv-v0.64.0-release.apk",
+      "digest": "sha256:01291975d78401309e107e8c98c32a0f694388cd82d6d000029566ff4edf3d6c",
+      "size": 6477471
     }
   ]
 }
-
