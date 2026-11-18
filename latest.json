@@ -1,22 +1,22 @@
 {
-  "tag_name": "v0.67.0",
+  "tag_name": "v0.68.0",
   "draft": false,
   "prerelease": false,
-  "body": "بازگشت بعد از پرش بزرگ، نمایش زمان اتصال مجدد، انتخاب نسخه هنگام اختلاف مدت، کارت قسمت بعد، زمان خواناتر و دسترسی مستقیم به شبکهٔ قبلی.",
+  "body": "مقایسهٔ لینک‌های پخش، بازگشت به کارت قبلی، تکرار دیالوگ برای تنظیم زیرنویس، پنهان‌کردن تصویر قسمت‌های ندیده و نمای ساده هنگام مکث.",
   "assets": [
     {
-      "name": "cinema-mobile-v0.67.0-release.apk",
+      "name": "cinema-mobile-v0.68.0-release.apk",
       "state": "uploaded",
-      "browser_download_url": "https://github.com/kamyabebrahimi/cinema-updates/releases/download/v0.67.0/cinema-mobile-v0.67.0-release.apk",
-      "digest": "sha256:00d553a6e15eba2f68e6234e2f2d4b4724e362c7dfe2cd3a3e3a2109b3291e2a",
-      "size": 6479431
+      "browser_download_url": "https://github.com/kamyabebrahimi/cinema-updates/releases/download/v0.68.0/cinema-mobile-v0.68.0-release.apk",
+      "digest": "sha256:6689d1f362d6ecb53c60d6926894c8512cf2ceaab404ab26b73a0bb4a8e6b947",
+      "size": 6482640
     },
     {
-      "name": "cinema-tv-v0.67.0-release.apk",
+      "name": "cinema-tv-v0.68.0-release.apk",
       "state": "uploaded",
-      "browser_download_url": "https://github.com/kamyabebrahimi/cinema-updates/releases/download/v0.67.0/cinema-tv-v0.67.0-release.apk",
-      "digest": "sha256:cf9151971a01a727d708dabb25442505584ebc4d19d71812332b3e7fb7d057dd",
-      "size": 6480759
+      "browser_download_url": "https://github.com/kamyabebrahimi/cinema-updates/releases/download/v0.68.0/cinema-tv-v0.68.0-release.apk",
+      "digest": "sha256:6cf9117879dc5ef3c344317034035bf96cc4ca080914c5e2c049696c95f92474",
+      "size": 6484464
     }
   ]
 }
