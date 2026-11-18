@@ -1,0 +1,24 @@
+name: Publish Cinema 0.68.0
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/publish-v68.yml]
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify and publish signed installers
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: kamyabebrahimi/cinema-updates
+        run: |
+          gh api -H 'Accept: application/vnd.github.raw+json' repos/$GH_REPO/git/blobs/3e09371ab8a2468fae21a8a056c75b55ed77d7b6 > cinema-mobile-v0.68.0-release.apk
+          gh api -H 'Accept: application/vnd.github.raw+json' repos/$GH_REPO/git/blobs/d488dd3a003fad4f11eb4ed33dd4ee31afd0a251 > cinema-tv-v0.68.0-release.apk
+          cat > SHA256SUMS.txt <<'EOF'
+          6689d1f362d6ecb53c60d6926894c8512cf2ceaab404ab26b73a0bb4a8e6b947  cinema-mobile-v0.68.0-release.apk
+          6cf9117879dc5ef3c344317034035bf96cc4ca080914c5e2c049696c95f92474  cinema-tv-v0.68.0-release.apk
+          EOF
+          sha256sum -c SHA256SUMS.txt
+          gh release create v0.68.0 *.apk SHA256SUMS.txt --latest --title 'سینما ۰٫۶۸٫۰' --notes 'مقایسهٔ لینک‌های پخش، بازگشت به کارت قبلی، تکرار دیالوگ برای تنظیم زیرنویس، پنهان‌کردن تصویر قسمت‌های ندیده و نمای ساده هنگام مکث.'
