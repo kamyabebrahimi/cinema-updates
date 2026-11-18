@@ -1,0 +1,24 @@
+name: Publish Cinema 0.67.0
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/publish-v67.yml]
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify and publish signed installers
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: kamyabebrahimi/cinema-updates
+        run: |
+          gh api -H 'Accept: application/vnd.github.raw+json' repos/$GH_REPO/git/blobs/fba4c0e1f8b1c5d80eefc37ce6ff79a13195a49b > cinema-mobile-v0.67.0-release.apk
+          gh api -H 'Accept: application/vnd.github.raw+json' repos/$GH_REPO/git/blobs/5633fb4de050a7d9ebb663b2d69ec9e7d5f2b73b > cinema-tv-v0.67.0-release.apk
+          cat > SHA256SUMS.txt <<'EOF'
+          00d553a6e15eba2f68e6234e2f2d4b4724e362c7dfe2cd3a3e3a2109b3291e2a  cinema-mobile-v0.67.0-release.apk
+          cf9151971a01a727d708dabb25442505584ebc4d19d71812332b3e7fb7d057dd  cinema-tv-v0.67.0-release.apk
+          EOF
+          sha256sum -c SHA256SUMS.txt
+          gh release create v0.67.0 *.apk SHA256SUMS.txt --latest --title 'سینما ۰٫۶۷٫۰' --notes 'بازگشت بعد از پرش بزرگ، نمایش زمان اتصال مجدد، انتخاب نسخه هنگام اختلاف مدت، کارت قسمت بعد، زمان خواناتر و دسترسی مستقیم به شبکهٔ قبلی.'
