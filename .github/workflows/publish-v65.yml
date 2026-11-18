@@ -1,0 +1,60 @@
+name: Publish verified Cinema 0.65.0
+
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/publish-v65.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    if: github.repository == 'kamyabebrahimi/cinema-updates'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Verify staged installers and publish the existing release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request
+
+          root = 'https://api.github.com/repos/kamyabebrahimi/cinema-updates'
+          headers = {'Authorization': 'Bearer ' + os.environ['GH_TOKEN'],
+                     'Accept': 'application/vnd.github+json',
+                     'X-GitHub-Api-Version': '2026-03-10'}
+          def api(path, data=None):
+              request = urllib.request.Request(root + path, headers=headers,
+                  data=None if data is None else json.dumps(data).encode(),
+                  method='GET' if data is None else 'PATCH')
+              with urllib.request.urlopen(request, timeout=60) as response:
+                  return json.load(response)
+
+          release = api('/releases/449558923')
+          assert release['tag_name'] == 'v0.65.0', 'Unexpected release tag'
+          expected = {
+              'cinema-mobile-v0.65.0-release.apk': (6477737, 'b1a0a6c55ffe852e83f721d974e2974f1d7e45bddcae293f6043f14d12c08911'),
+              'cinema-tv-v0.65.0-release.apk': (6478761, '19d409a1f004ec779b7e8e5f97543aa12c29120388ca2f79d57ee13b69cf9faa'),
+              'SHA256SUMS.txt': (196, 'ba2810974426640fac78d93319a88c1f6e6fc48b880629afa57d8d4e6c54f184')
+          }
+          assert {asset['name'] for asset in release['assets']} == set(expected), 'Unexpected asset set'
+          for asset in release['assets']:
+              size, digest = expected[asset['name']]
+              assert asset['state'] == 'uploaded' and asset['size'] == size, 'Incomplete installer'
+              assert asset['digest'] == 'sha256:' + digest, 'Installer checksum mismatch'
+          if release['draft']:
+              note = '\n\nCI: Mobile API 29 and TV API 29/31 passed. Source: f20a71f2f725a949d1a944597d612eca3990e840. Validation: https://github.com/kamyabebrahimi/cinema-tv/actions/runs/44246519334'
+              release = api('/releases/449558923', {
+                  'tag_name': 'v0.65.0', 'target_commitish': os.environ['GITHUB_SHA'],
+                  'name': 'سینما ۰٫۶۵٫۰: بازطراحی موبایل و تلویزیون',
+                  'body': (release.get('body') or '') + note,
+                  'draft': False, 'prerelease': False, 'make_latest': 'true'
+              })
+          assert not release['draft'] and not release['prerelease'], 'Release is not public stable'
+          assert api('/releases/latest')['id'] == release['id'], 'Release is not Latest'
+          print(release['html_url'])
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as output:
+              output.write('Published verified signed mobile and TV installers: ' + release['html_url'] + '\n')
+          PY
