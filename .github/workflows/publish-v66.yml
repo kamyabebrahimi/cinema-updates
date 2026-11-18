@@ -1,0 +1,24 @@
+name: Publish Cinema 0.66.0
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/publish-v66.yml]
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify and publish signed installers
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: kamyabebrahimi/cinema-updates
+        run: |
+          gh api -H 'Accept: application/vnd.github.raw+json' repos/$GH_REPO/git/blobs/7c848b6f8c0483453c25c37115501c802870c8b5 > cinema-mobile-v0.66.0-release.apk
+          gh api -H 'Accept: application/vnd.github.raw+json' repos/$GH_REPO/git/blobs/7520b6b63a746286a40cb47c070495fed0bbd7e4 > cinema-tv-v0.66.0-release.apk
+          cat > SHA256SUMS.txt <<'EOF'
+          be20cb976a567d06a7c1b4c6da29e90cc10a61f7e47a3af2576d24a245c6a69f  cinema-mobile-v0.66.0-release.apk
+          62bf9aad8514704188144dfd70f24c924e3ee751e164c30431a23ce24e7f6282  cinema-tv-v0.66.0-release.apk
+          EOF
+          sha256sum -c SHA256SUMS.txt
+          gh release create v0.66.0 *.apk SHA256SUMS.txt --latest --title 'سینما ۰٫۶۶٫۰' --notes 'مرور قسمت‌ها هنگام پخش، پوستر جایگزین سریال، تنظیم ظاهر زیرنویس برای هر جهت موبایل و نمایش آخرین لینک موفق. هر دو فایل با امضای ثابت سینما منتشر شده‌اند.'
